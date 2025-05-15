@@ -134,8 +134,15 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="hero-title"
+          style={{
+            background: 'linear-gradient(to right, purple, red)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            MozBackgroundClip: 'text', // For Firefox compatibility
+            MozTextFillColor: 'transparent' // For Firefox compatibility
+          }}
         >
-          Build SaaS Applications Faster
+          Dede is Coming to US YEY!
         </motion.h1>
         
         <motion.p 
